@@ -30,3 +30,8 @@ git remote -v
 # update local to remote repository
 # git push --set-upstream git-remote master
 git push -u git-remote master
+
+# Update from now on!
+git status
+git add .
+git push .
