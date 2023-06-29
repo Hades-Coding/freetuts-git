@@ -36,3 +36,24 @@ git status
 git add .
 git commit -m "add picture & update md file"
 git push
+###########################################
+
+# Add 3 branches
+git branch admin-issues
+git branch task1
+git branch task2
+
+git remote -v
+git push
+
+# No branch on remote, then
+git checkout admin-issues
+git push --set-upstream git-remote admin-issues
+
+git checkout task1
+git push --set-upstream git-remote task1
+
+git checkout task2
+git push --set-upstream git-remote task2
+
+git status
