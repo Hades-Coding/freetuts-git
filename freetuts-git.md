@@ -34,4 +34,5 @@ git push -u git-remote master
 # Update from now on!
 git status
 git add .
-git push .
+git commit -m "add picture & update md file"
+git push
