@@ -56,4 +56,14 @@ git push --set-upstream git-remote task1
 git checkout task2
 git push --set-upstream git-remote task2
 
+git checkout master
+git add .
+# commit local repo
+git commit -m "Update & add 3 branches, then push to remote"
+git push
 git status
+
+##
+# On branch master
+# Your branch is up to date with 'git-remote/master'.
+# 
